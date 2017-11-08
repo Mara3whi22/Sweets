@@ -1,0 +1,91 @@
+
+h1 {
+	background-color: lightskyblue;
+	color: black;
+	text-align: center;
+    border-color: #065d93;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+h2 {
+	background-color: greenyellow;
+	color: black;
+	text-align: center;
+    border-color: #4d8000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+body {
+	background-color: cornsilk;
+    margin: 0px;
+	font-family: "Palatino Linotype";
+    font-weight: normal;
+}
+
+img {
+    
+
+
+}
+
+p {
+	background-color: #ffb3db;
+	padding: 10px;
+	border-color: #cc006d;
+	border-width: 2px;
+	border-style: solid;
+    border-radius: 10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 302px;
+    float: right;
+}
+
+div.gallery {
+    border: 1px solid black;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
